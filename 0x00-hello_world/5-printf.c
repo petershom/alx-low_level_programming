@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * main-print the string using the put function
+ * main-print the string function
  *
+ * Description: Use the function printf
  * this program prints 'with proper grammar, but the outcome is a piece of art,
- * program should end with the value 0 
+ * Return: 0 
 */
 int main(void)
 {
