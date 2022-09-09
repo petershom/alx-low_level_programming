@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * main - positive_or_negative number
+ * main - print if n is positve, negetive or zero
  *
- * Description:  assign a random number to the variable n
+ * Description: assign a random number to the variable n
  * Return: value 0
  */
 int main(void)
