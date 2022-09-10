@@ -12,9 +12,9 @@ int main(void)
 	int num;
 
 	for (num = 0; num < 10; num++)
-		printf("%d", num);
+		putchar((num % 10) + '0');
 
-	printf("\nn");
+	putchar("\n");
 
 	return (0);
 }
