@@ -3,7 +3,8 @@
 #include <string.h>
 
 /**
- * main - a function that returns the length of a string
+ * print_rev - a function that returns the length of a string
+ *@s: The string to print
  *
  * Return: Always 0
  */

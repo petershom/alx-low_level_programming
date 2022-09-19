@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * main - a function that reverses a string
+ * rev_string - a function that reverses a string
+ *@s: string to be modified
  *
  * Return: Always 0
  */
