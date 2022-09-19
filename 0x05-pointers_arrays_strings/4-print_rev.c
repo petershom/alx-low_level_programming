@@ -3,17 +3,24 @@
 #include <string.h>
 
 /**
- * print_rev - a function that returns the length of a string
+ * print_rev - returns the length of a string
  *@s: The string to print
  *
  * Return: Always 0
  */
 
-void print_rev(char *s):
+void print_rev(char *s)
 {
-        int len = strlen(s)
+        int c = 0;
 
-        while(len--)
-		putchar(*(s + len));
-	putchar(10);
+        while (s[c] != '\0')
+	{
+		c++;
+	}
+
+	for (c -= 1; c >= 0; c--)
+	{
+		 _putchar(s[c]);
+	}
+	_putchar('\n');
 }
