@@ -6,8 +6,7 @@
  * Return: Always 0.
  */
 
-void swap_int(int *a, int *b);
-int main(void)
+void swap_int(int *a, int *b)
 {
 	int tmp = *a;
 

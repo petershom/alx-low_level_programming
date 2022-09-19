@@ -5,14 +5,20 @@
  *
  * Return: Always 0
  */
-
-void rev_string(char *s);
+void rev_string(char *s)
 {
-        int len = strlen(s);
+	char rev = s[0];
+	int fcounter = 0;
+	int i;
 
-        while(*(s + len)
-                len++;
+	while (s[fcounter] != '\0')
+		fcounter++;
 
-        return (len);
+	for (i = 0; i < fcounter; i++)
+	{
+		fcounter--;
+		rev = s[i];
+		s[i] = s[fcounter];
+		s[fcounter] = rev;
+	}
 }
-
