@@ -5,17 +5,10 @@
  *
  * Return: 1, 0
  */
-
-int _isdigit(int i);
-
-main(void)
+int _isdigit(int c)
 {
-	if ((i >= 0) && (i <= 9))
-	{
+	if ((c >= 0) && (c <= 9))
 		return (1);
-	}
 	else
-	{
 		return (0);
-	}
 }
