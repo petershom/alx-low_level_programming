@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - a function that returns the length of a string
- *
+ * swap - a function that returns the length of a string
+ *@: input
  * Return: Always 0
  */
 
