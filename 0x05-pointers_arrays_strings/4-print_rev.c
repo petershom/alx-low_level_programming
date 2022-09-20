@@ -17,7 +17,6 @@ void print_rev(char *s)
 	{
 		c++;
 	}
-
 	c--;
 	for (; c >= 0; c--)
 	{
