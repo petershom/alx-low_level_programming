@@ -1,13 +1,11 @@
-#ifndef "main.h"
-#include "main.h"
+#ifndef MAIN_H
+#include MAIN_H
 
 /* main - check the code
  *
  * Return: Always 0.
  */
-
-int main(void)
-{
+int _putchar(char c);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
@@ -18,4 +16,3 @@ char *cap_string(char *);
 char *leet(char *);
 
 #endif /* MAIN.H */
-}
