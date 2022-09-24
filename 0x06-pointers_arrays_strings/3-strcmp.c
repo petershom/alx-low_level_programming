@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcmp - compare
+ * *_strcmp - compare
  * @s1 : pointerto char params
  * @s2 : pointer to char params
  * Return: *dest
