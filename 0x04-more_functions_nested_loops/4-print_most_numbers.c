@@ -1,24 +1,19 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
- * main - a function that prints the numbers,
- *from 0 to 9, followed by a new line
- *
- * Return: 0
- */
-
-void print_most_numbers(void);
-
-main(void)
+*print_most_numbers - prints numbers except 2 and 4
+*
+*Return: returns nothing
+*/
+void print_most_numbers(void)
 {
-	int i;
-
-	for (i = 0; i <= 9; i++)
-	{
-		if ((i == 2) || (i == 4))
-			continue;
-		else
-			_putchar("%d", i);
-	}
-	_putchar('\n');
+int number;
+for (number = 48; number < 58; number++)
+{
+if ((number == 50) || (number == 52))
+{
+continue;
+}
+_putchar(number);
+}
+_putchar(10);
 }
