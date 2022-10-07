@@ -1,22 +1,20 @@
 #include "main.h"
 
-/** main -  a program that prints _putchar, followed by a new line
- *
- * Return: 0
- */
-
- int main(void)
-
+/**
+*main - function prints text as output
+*
+*Return:return 0
+*/
+int main(void)
 {
-	char c[] = "_putchar";
+	char school[10] = "_putchar";
+
 	int i;
 
 	for (i = 0; i < 8; i++)
 	{
-		_putchar(c[i]);
+		_putchar(school[i]);
 	}
-
-	_putchar('\n');
-
+	_putchar(10);
 	return (0);
 }
